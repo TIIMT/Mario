@@ -16,7 +16,7 @@ public:
 	[[nodiscard]] virtual std::uint32_t getScore()const noexcept;
 	[[nodiscard]] virtual std::uint32_t getSpeed()const noexcept;
 	[[nodiscard]] virtual std::uint32_t getJump()const noexcept;
-	[[nodiscard]] virtual float			getFreeFall()const noexcept;
+	[[nodiscard]] virtual float	    getFreeFall()const noexcept;
 
 	[[nodiscard]] virtual sf::Sprite&   sprite()noexcept;
 
